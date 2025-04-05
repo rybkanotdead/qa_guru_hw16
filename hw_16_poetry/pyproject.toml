@@ -1,0 +1,22 @@
+[project]
+name = "hw-16-poetry"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Alina Oganina",email = "ifoxspirit@yandex.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "selene (==2.0.0rc2)",
+    "pytest (==8.3.5)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.3.6"
+
